@@ -25,11 +25,11 @@ document.querySelector('button').addEventListener('click', () => {
     const correctAnswer = rand_num1 + rand_num2
     if (answer === correctAnswer) {
         correct++;
-        document.querySelector('#correct').innerHTML = `Correct answer ${correct}`;
+        document.querySelector('#correct').innerHTML = `Correct answers ${correct}`;
         alert('Correct!')
     } else {
         incorrect++;
-        document.querySelector('#incorrect').innerHTML = `Incorrect answer ${incorrect}`;
+        document.querySelector('#incorrect').innerHTML = `Incorrect answers ${incorrect}`;
         alert('Incorrect!')
     }
       
